@@ -12,6 +12,8 @@ int main(){
     for(int i = 0; i < node_elements; i++){
         list_append(l, data_to_sort[i]);
     }
+
+    list_sort(l);
     list_display(l);
     l = list_destroy(l);
     return 0;
